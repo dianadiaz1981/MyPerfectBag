@@ -296,3 +296,95 @@ strong{
   background-color: #c4124a;
 }
 
+/* Media query para mobil*/
+
+@media (max-width: 768px) {
+  /* Header */
+  .barra-navegacion {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .barra-navegacion nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-left: 0;
+  }
+
+  .acciones {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  /* Productos en una sola columna */
+  .fila-productos {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .producto {
+    width: 90%;
+  }
+
+  /* Footer en columna */
+  .footer {
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-links,
+  .footer-social,
+  .footer-newsletter {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Media query tablet*/
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Header */
+  .barra-navegacion {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .barra-navegacion nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 0;
+  }
+
+  .acciones {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  /* Productos en dos columnas */
+  .fila-productos {
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .producto {
+    width: 45%;
+  }
+
+  /* Footer centrado */
+  .footer {
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-links,
+  .footer-social,
+  .footer-newsletter {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
