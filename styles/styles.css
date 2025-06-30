@@ -18,24 +18,44 @@ header{
   align-items: center;
 }
 
+.navbar-nav > .nav-item {
+  margin-right: 20px;
+}
 
-.acciones img {
-  width: 24px;          
-  height: 24px;         
-  object-fit: contain;  /* ajusta la imagen dentro sin deformarla */
 
+
+.nav-link {
+  color: black !important;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+
+.rojo {
+  color: red !important;
 }
 
 .acciones {
-  margin-left: auto;     /* Esto empuja los íconos a la derecha */
-  display: flex;         /* Para que los íconos se alineen en fila */
+  display: flex;
   gap: 15px;
+  margin-left: auto;
+}
 
+.acciones img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
 
 a{
     color: black;
+    font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
@@ -55,11 +75,6 @@ header nav ul{
 }
 /* le agrego padding y margin 0 para ponerlo en reset y empezar de 0*/
 
-.rojo {
-    color:red
-}
-
-
 .portada {
   margin-top: 0px;            /* Espacio externo arriba lo pongo 0 porque quiero que quede pegado al menu*/
   margin-right: auto;          /* Auto-centra horizontalmente (derecha) */
@@ -73,13 +88,15 @@ header nav ul{
   
 }       
 
-h1{
-    color:black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    margin-bottom: 10px; /*pongo este margin para separar entre titulo y menú y que no  me baje mas la imagen*/
-    margin-top: 10px;
-    margin-left: 20px;
+h1 {
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.custom-navbar {
+  background-color: white !important;
+  padding: 10px 20px;
 }
 
 .fila-productos {               /* es el contenedor que envuelve las tarjetas*/
