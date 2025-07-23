@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 header {
   background-color: white;
 }
@@ -27,12 +31,16 @@ header nav ul {
   margin-right: 20px;
 }
 
-.nav-link {
-  color: black !important;
-  font-weight: bold;
-  font-size: 20px;
+.nav-link,
+.dropdown-item {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
   text-decoration: none;
+  color: black !important;
+
 }
+
 .nav-link:hover {
   text-decoration: underline;
 }
@@ -40,6 +48,17 @@ header nav ul {
 .rojo {
   color: red !important;
 }
+
+/* Aplicamos Font Poppins solo en elementos específicos */
+
+p,
+button,
+input,
+.footer-newsletter label {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
 
 .acciones {
   display: flex;
@@ -57,8 +76,6 @@ header nav ul {
 
 a {
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
   font-size: 20px;
   text-decoration: none;
 }
@@ -70,32 +87,31 @@ a {
 
 h1 {
   font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+
   margin: 20px;
 }
 
 h2 {
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
+
   font-size: 25px;
   margin: 20px;
 }
 
 h3 {
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
+
   font-size: 20px;
 }
 
 p {
   color: darkgrey;
-  font-family: Arial, Helvetica, sans-serif;
+
   font-size: 18px;
 }
 
 button {
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
 }
 
@@ -182,7 +198,7 @@ strong {
   background-color: white;
   color: black;
   padding: 40px 20px;
-  font-family: "Montserrat", sans-serif;
+
 }
 .footer-top {
   display: flex;
@@ -207,9 +223,12 @@ strong {
 .footer-newsletter {
   display: flex;
   flex-direction: column;
+  align-items:flex-end;
   text-align: right;
-  gap: 10px;
+  margin: 0 auto;
+  padding: 20px;
 }
+
 .footer-newsletter label {
   font-size: 14px;
 }
