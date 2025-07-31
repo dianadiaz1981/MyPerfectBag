@@ -17,7 +17,13 @@
 
   <!--link conect ccs-->
     <link rel="stylesheet" href="./styles/styles.css">
-
+<!-- SEO -->
+    <meta name="description" content="Descubre los bolsos exclusivos de My Perfect Bag. Calidad, diseño y estilo en cada modelo. Compra online tus bolsos favoritos.">
+    <meta name="keywords" content="bolsos, bags, moda, accesorios, cuero, diseño, tienda online, My Perfect Bag">
+    <meta name="author" content="My Perfect Bag">
+    <meta property="og:title" content="My Perfect Bag - Bolsos exclusivos y de diseño">
+    <meta property="og:description" content="Encuentra tu bolso perfecto en nuestra tienda online. Modelos únicos, calidad premium y envío rápido.">
+   
   
 
 </head>
@@ -68,8 +74,10 @@
         <div class="portada">
           <img src="assets/imgportada.webp" alt="chica rubia con totem xl negro">
         </div>           
-    
-        <section>
+    <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <section>
           <h2>bags</h2>
           <div class="fila-productos"> <!--Contenedor padre-->
            <div class="producto">
@@ -103,26 +111,78 @@
             <BUtton>AGREGAR AL CARRITO</BUtton>
           </div>
         </section>
-
-        <section>  
-          <h2>New Arrivals</h2>
-          <div class="fila-productos">
-            <div class="producto">
+    
+    </div>
+    <div class="carousel-item">
+      <section>
+          <h2>bags</h2>
+          <div class="fila-productos"> <!--Contenedor padre-->
+           <div class="producto">
+            <img src="assets/bolsonegroDidi.webp" alt="bolso mediano tira medio color negro">
+            <h3>Bag DIDI</h3>
+            <P>120 EUR</P>
+            <BUtton>AGREGAR AL CARRITO</BUtton>
+          </div>
+           <div class="producto">
+            <img src="assets/bolsomarronDidi.webp" alt="bolso mediano tira medio color marron">
+            <h3>Bag DIDI</h3>
+            <P>120 EUR</P>
+            <BUtton>AGREGAR AL CARRITO</BUtton>
+          </div>
+           <div class="producto">
             <img src="assets/bolsoblancoDidi.webp" alt="bolso mediano tira medio color blanco">
             <h3>Bag DIDI</h3>
             <P>120 EUR</P>
-            <button>AGREGAR AL CARRITO</button>
+            <BUtton>AGREGAR AL CARRITO</BUtton>
           </div>
           <div class="producto">
             <img src="assets/bolsonegroDidi.webp" alt="bolso mediano tira medio color negro">
             <h3>Bag DIDI</h3>
             <P>120 EUR</P>
+            <BUtton>AGREGAR AL CARRITO</BUtton>
+          </div>
+          <div class="producto">
+            <img src="assets/bolsonegroDidi.webp" alt="bolso mediano tira medio color negro">
+            <h3>Bag DIDI</h3>
+            <P>120 EUR</P>
+            <BUtton>AGREGAR AL CARRITO</BUtton>
+          </div>
+        </section>
+      
+    </div>
+   
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="false"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        
+
+        <section>  
+          <h2>New Arrivals</h2>
+          <div class="fila-productos">
+            <div class="producto">
+            <img src="assets/bolsonewtimenegroyrosa.webp" alt="bolso mediano tira medio color negro cremallera rosa">
+            <h3>Bag New Time</h3>
+            <P>180 EUR</P>
             <button>AGREGAR AL CARRITO</button>
           </div>
           <div class="producto">
-            <img src="assets/bolsomarronDidi.webp" alt="bolso mediano tira medio color marron">
-            <h3>Bag DIDI</h3>
-            <P>120 EUR</P>
+            <img src="assets/bolsoParisborgoña.webp" alt="bolso mediano tira medio color borgoña">
+            <h3>Bag Paris</h3>
+            <P>90 EUR</P>
+            <button>AGREGAR AL CARRITO</button>
+          </div>
+          <div class="producto">
+            <img src="assets/bolsoAudaz.webp" alt="bolso hebilla dorada">
+            <h3>Bag Audaz</h3>
+            <P>170 EUR</P>
             <button>AGREGAR AL CARRITO</button>
           </div>
         </section>
@@ -134,7 +194,7 @@
           
           <section class="collage-videos">
             
-            <div class="video v1"><video src="https://s3.amazonaws.com/cdn-stg.peekast.com/diecc/MyPerfectBag/bolsorosacharms_GriHZsIH.mov" controls></video></div>
+            <div class="video v1"><video src="https://s3.amazonaws.com/cdn-stg.peekast.com/diecc/MyPerfectBag/bolsorosacharms_GriHZsIH.mov" muted autoplay loop></video></div>
             <div class="video v2"><video src="video2.mp4" controls></video></div>
             <div class="video v3"><video src="https://s3.amazonaws.com/cdn-stg.peekast.com/diecc/MyPerfectBag/Bolsorosacharms.mp4" controls></video></div>
             <div class="video v4"><video src="https://s3.amazonaws.com/cdn-stg.peekast.com/diecc/MyPerfectBag/Bolsosummer.mp4" controls></video></div>
@@ -151,19 +211,6 @@
       <a href="customerservice.html">Customer Service</a>
       <a href="empresa.html">Empresa</a>
       
-     </div>
-
-      <!--Segundo bloque social media-->
-     <div class="footer-social">
-      <img src="assets/iconoinstagram.png"alt="icono instagram">
-      <img src="assets/iconoyoutube.png"alt="icono youtube">
-
-     </div>
-
-     <!--Tercer bloque párrafo-->
-     <div class="footer-copy">
-      <p><strong> MYPERFECTBAG todos los derechos reservados</strong></p>
-
      </div>
 
      <!--Cuarto parrafo newsletter-->
@@ -202,6 +249,22 @@
 </div>
 
      </div>
+<div 
+class="footer-diana">
+<div class="footer-copy">
+      <p><strong> MYPERFECTBAG todos los derechos reservados</strong></p>
+      
+     </div>
+
+     <div class="footer-social">
+      <img src="assets/iconoinstagram.png"alt="icono instagram">
+      <img src="assets/iconoyoutube.png"alt="icono youtube">
+     </div>
+
+
+</div>
+     
+
     </footer>
 
       <!--Para que el dropdown funcione-->
